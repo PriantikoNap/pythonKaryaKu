@@ -1,8 +1,7 @@
 def toJadenCase(string):
     a = string.split()
     r = []
-    m=[]
-    g = []
+    
     for i in range(len(a)):
         h = a[i];
         for j in range(len(h)):
@@ -13,3 +12,5 @@ def toJadenCase(string):
         r.append(" ")
         t = "".join(r)
     return(t)
+
+print(toJadenCase("priantiko nur adi pratama"))
